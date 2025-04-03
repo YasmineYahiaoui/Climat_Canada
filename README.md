@@ -33,7 +33,4 @@ Climate Data Dashboard est une application web interactive développée avec Nex
 
 À compléter si le site est hébergé (ex : Vercel, Azure App Service)
 
-## Développé par
 
-Yasmine Yahiaoui  
-Étudiante en programmation, passionnée par le développement web et la sensibilisation environnementale.
