@@ -1,4 +1,3 @@
-// pages/api/province-polluee.ts
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { connectToDB } from '@/lib/db'
 

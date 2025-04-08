@@ -1,3 +1,4 @@
+// components/Navbar.tsx
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -24,13 +25,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/mois-chaud" className={linkClass('/mois-chaud')}>
-              🌡️ Mois le plus chaud
-            </Link>
-          </li>
-          <li>
-            <Link href="/province-polluee" className={linkClass('/province-polluee')}>
-              🏭 Province la plus polluée
+            <Link href="/statistiques" className={linkClass('/statistiques')}>
+              📊 Statistiques climatiques
             </Link>
           </li>
         </ul>
