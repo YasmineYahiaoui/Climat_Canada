@@ -87,7 +87,7 @@ export default function Statistiques() {
           <h2 className="text-xl font-semibold text-blue-800 mb-2">🌡️ Température</h2>
           <ul className="space-y-1">
             <li><strong>Mois le plus chaud :</strong> {data.moisChaud?.mois} ({data.moisChaud?.temperature_moyenne?.toFixed(1)} °C)</li>
-            <li><strong>Mois le plus froid :</strong> {data.moisFroid?.mois} ({data.moisFroid?.temperature_moyenne?.toFixed(1)} °C)</li>
+            
             <li><strong>Province la plus chaude :</strong> {data.provinceChaude?.province} ({data.provinceChaude?.temperature_moyenne?.toFixed(1)} °C)</li>
             <li><strong>Province la moins chaude :</strong> {data.provinceFroide?.province} ({data.provinceFroide?.temperature_moyenne?.toFixed(1)} °C)</li>
           </ul>
